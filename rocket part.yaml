@@ -1,0 +1,21 @@
+Blue Circuit:
+  Planet: Vulcanus
+  Ingredients:
+    - Green Circuit
+    - Red Circuit
+    - Sulfuric Acid
+
+LDS:
+  Planet: Vulcanus
+  Ingredients:
+    - Copper Plate
+    - Plastic Bar
+    - Steel Plate
+  Dependency:
+    - Gleba (Plastic Bar)
+
+Rocket Fuel:
+  Planet: Fulgora
+  Ingredients:
+    - Light Oil
+    - Solid Fuel

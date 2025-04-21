@@ -1,0 +1,21 @@
+Green Circuit:
+  Planet: Vulcanus
+  Ingredients:
+    - Copper Cable
+    - Iron Plate
+
+Red Circuit:
+  Planet: Vulcanus
+  Ingredients:
+    - Copper Cable
+    - Plastic Bar
+    - Green Circuit
+  Dependency:
+    - Gleba (Plastic Bar)
+
+Blue Circuit:
+  Planet: Vulcanus
+  Ingredients:
+    - Green Circuit
+    - Red Circuit
+    - Sulfuric Acid

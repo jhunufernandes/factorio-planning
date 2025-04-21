@@ -1,0 +1,41 @@
+Red Science:
+  Planet: Vulcanus
+  Ingredients:
+    - Copper Plate
+    - Gear
+
+Green Science:
+  Planet: Vulcanus
+  Ingredients:
+    - Inserter
+    - Belt
+
+Black Science:
+  Planet: Vulcanus
+  Ingredients:
+    - Grenade
+    - Red Magazine
+    - Wall
+
+Blue Science:
+  Planet: Vulcanus
+  Ingredients:
+    - Red Circuit
+    - Engine
+    - Sulfur
+  Dependency:
+    Gleba/Fulgora (Sulfur)
+
+Purple Science:
+  Planet: Vulcanus
+  Ingredients:
+    - Electric Furnace
+    - Productivity Module 1
+    - Rail
+
+Yellow Science:
+  Planet: Vulcanus
+  Ingredients:
+    - Blue Science
+    - LDS
+    - Flying robot frame

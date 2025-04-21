@@ -1,0 +1,66 @@
+Speed Module 1:
+  Planet: Vulcanus
+  Ingredients:
+    - Green Circuit
+    - Red Circuit
+
+Speed Module 2:
+  Planet: Vulcanus
+  Ingredients:
+    - Red Circuit
+    - Blue Circuit
+    - Speed Module 1
+
+Speed Module 3:
+  Planet: Vulcanus
+  Ingredients:
+    - Red Circuit
+    - Blue Circuit
+    - Tungsten Carbide
+    - Speed Module 2
+
+Productivity Module 1:
+  Planet: Vulcanus
+  Ingredients:
+    - Green Circuit
+    - Red Circuit
+
+Productivity Module 2:
+  Planet: Vulcanus
+  Ingredients:
+    - Red Circuit
+    - Blue Circuit
+    - Productivity Module 1
+
+Productivity Module 3:
+  Planet: Nauvis
+  Ingredients:
+    - Red Circuit
+    - Blue Circuit
+    - Biter Egg
+    - Productivity Module 2
+  Dependency:
+    - Vulcanus (Red Circuit)
+    - Vulcanus (Blue Circuit)
+    - Vulcanus (Productivity Module 2)
+
+Quality Module 1:
+  Planet: Vulcanus
+  Ingredients:
+    - Green Circuit
+    - Red Circuit
+
+Quality Module 2:
+  Planet: Vulcanus
+  Ingredients:
+    - Red Circuit
+    - Blue Circuit
+    - Quality Module 1
+
+Quality Module 3:
+  Planet: Vulcanus
+  Ingredients:
+    - Red Circuit
+    - Blue Circuit
+    - Superconductor
+    - Quality Module 2

@@ -1,0 +1,250 @@
+Battery:
+  Planet: Vulcanus
+  Ingredients:
+    - Copper Plate
+    - Iron Plate
+    - Sulfuric Acid
+
+Electric Engine:
+  Planet: Fulgora
+  Ingredients:
+    - Green Circuit
+    - Engine
+    - Lubricant
+
+Flying Robot Frame:
+  Planet: Vulcanus
+  Ingredients:
+    - Battery
+    - Electric Engine
+    - Green Circuit
+    - Steel Plate
+  Dependency:
+    - Fulgora (Electric Engine)
+
+Electric Furnace:
+  Planet: Vulcanus
+  Ingredients:
+    - Red Circuit
+    - Steel Plate
+    - Brick
+
+Rail:
+  Planet: Vulcanus
+  Ingredients:
+    - Iron Stick
+    - Steel Plate
+    - Stone
+
+Pipes:
+  - Planet: Vulcanus
+  - Ingredients:
+    - Iron Plate
+
+Engine:
+  - Planet: Vulcanus
+  - Ingredients:
+    - Gear
+    - Pipes
+    - Steel PLate
+
+Sulfur:
+  - Planet: Gleba/Fulgora
+  - Ingredients:
+    - Spoilage (Gleba)
+    - Bioflux (Gleba)
+    - Gas (Fulgora)
+    - Water (Fulgora)
+
+Grenade:
+  - Planet: Vulcanus
+  - Ingredients:
+    - Iron Plate
+    - Coal
+
+Yellow Magazine:
+  - Planet: Vulcanus
+  - Ingredients:
+    - Iron Plate
+
+Red Magazine:
+  - Planet: Vulcanus
+  - Ingredients:
+    - Steel Plate
+    - Copper Plate
+    - Yellow Magazine
+
+Brick:
+  - Planet: Vulcanus
+  - Ingredients:
+    - Stone
+
+Wall:
+  - Planet: Vulcanus
+  - Ingredients:
+    - Brick
+
+Plastic Bar:
+  Planet: Gleba
+  Ingredients:
+    - Yumako Mash
+    - Bioflux
+
+Inserter:
+  Planet: Vulcanus
+  Ingredients:
+    - Iron Plate
+    - Gear
+    - Green Circuit
+
+Belt:
+  Planet: Vulcanus
+  Ingredients:
+    - Iron Plate
+    - Gear
+
+Green Circuit:
+  Planet: Vulcanus
+  Ingredients:
+    - Copper Cable
+    - Iron Plate
+
+Red Circuit:
+  Planet: Vulcanus
+  Ingredients:
+    - Copper Cable
+    - Plastic Bar
+    - Green Circuit
+  Dependency:
+    - Gleba (Plastic Bar)
+
+Blue Circuit:
+  Planet: Vulcanus
+  Ingredients:
+    - Green Circuit
+    - Red Circuit
+    - Sulfuric Acid
+
+LDS:
+  Planet: Vulcanus
+  Ingredients:
+    - Copper Plate
+    - Plastic Bar
+    - Steel Plate
+  Dependency:
+    - Gleba (Plastic Bar)
+
+Rocket Fuel:
+  Planet: Fulgora
+  Ingredients:
+    - Light Oil
+    - Solid Fuel
+
+Speed Module 1:
+  Planet: Vulcanus
+  Ingredients:
+    - Green Circuit
+    - Red Circuit
+
+Speed Module 2:
+  Planet: Vulcanus
+  Ingredients:
+    - Red Circuit
+    - Blue Circuit
+    - Speed Module 1
+
+Speed Module 3:
+  Planet: Vulcanus
+  Ingredients:
+    - Red Circuit
+    - Blue Circuit
+    - Tungsten Carbide
+    - Speed Module 2
+
+Productivity Module 1:
+  Planet: Vulcanus
+  Ingredients:
+    - Green Circuit
+    - Red Circuit
+
+Productivity Module 2:
+  Planet: Vulcanus
+  Ingredients:
+    - Red Circuit
+    - Blue Circuit
+    - Productivity Module 1
+
+Productivity Module 3:
+  Planet: Nauvis
+  Ingredients:
+    - Red Circuit
+    - Blue Circuit
+    - Biter Egg
+    - Productivity Module 2
+  Dependency:
+    - Vulcanus (Red Circuit)
+    - Vulcanus (Blue Circuit)
+    - Vulcanus (Productivity Module 2)
+
+Quality Module 1:
+  Planet: Vulcanus
+  Ingredients:
+    - Green Circuit
+    - Red Circuit
+
+Quality Module 2:
+  Planet: Vulcanus
+  Ingredients:
+    - Red Circuit
+    - Blue Circuit
+    - Quality Module 1
+
+Quality Module 3:
+  Planet: Vulcanus
+  Ingredients:
+    - Red Circuit
+    - Blue Circuit
+    - Superconductor
+    - Quality Module 2
+
+Red Science:
+  Planet: Vulcanus
+  Ingredients:
+    - Copper Plate
+    - Gear
+
+Green Science:
+  Planet: Vulcanus
+  Ingredients:
+    - Inserter
+    - Belt
+
+Black Science:
+  Planet: Vulcanus
+  Ingredients:
+    - Grenade
+    - Red Magazine
+    - Wall
+
+Blue Science:
+  Planet: Vulcanus
+  Ingredients:
+    - Red Circuit
+    - Engine
+    - Sulfur
+  Dependency:
+    Gleba/Fulgora (Sulfur)
+
+Purple Science:
+  Planet: Vulcanus
+  Ingredients:
+    - Electric Furnace
+    - Productivity Module 1
+    - Rail
+
+Yellow Science:
+  Planet: Vulcanus
+  Ingredients:
+    - Blue Science
+    - LDS
+    - Flying robot frame
